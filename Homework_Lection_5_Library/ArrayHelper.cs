@@ -28,64 +28,64 @@ namespace Homework_Lection_5_Library
             b = temp;
         }
 
-        //1.Find the minimum element of an array.
-        public static int FindMinElement(int[] array)
-        {
-            return array[FindIndexMinElement(array)];
-        }
+        //+1.Find the minimum element of an array.
+        //public static int FindMinElement(int[] array)
+        //{
+        //    return array[FindIndexMinElement(array)];
+        //}
 
-        //2.Find the maximum element of an array.
-        public static int FindMaxElement(int[] array)
-        {
-            return array[FindIndexMaxElement(array)];
-        }
+        ////+2.Find the maximum element of an array.
+        //public static int FindMaxElement(int[] array)
+        //{
+        //    return array[FindIndexMaxElement(array)];
+        //}
 
-        //3.Find the index of the minimum element of the array.
-        public static int FindIndexMinElement(int[] array)
-        {
-            if (array == null || array.Length == 0)
-            {
-                throw new ArgumentException("Empty or null array");
-            }
+        //+3.Find the index of the minimum element of the array.
+        //public static int FindIndexMinElement(int[] array)
+        //{
+        //    if (array == null || array.Length == 0)
+        //    {
+        //        throw new ArgumentException("Empty or null array");
+        //    }
 
-            int indexMinElement = 0;
+        //    int indexMinElement = 0;
 
-            for (int i = 1; i < array.Length; i++)
-            {
-                if (array[i] < array[indexMinElement])
-                {
-                    indexMinElement = i;
-                }
-            }
+        //    for (int i = 1; i < array.Length; i++)
+        //    {
+        //        if (array[i] < array[indexMinElement])
+        //        {
+        //            indexMinElement = i;
+        //        }
+        //    }
 
-            return indexMinElement;
-        }
+        //    return indexMinElement;
+        //}
 
-        //4.Find the index of the maximum element of the array.
-        public static int FindIndexMaxElement(int[] array)
-        {
-            if (array == null || array.Length == 0)
-            {
-                throw new ArgumentException("Empty or null arra");
-            }
+        ////+4.Find the index of the maximum element of the array.
+        //public static int FindIndexMaxElement(int[] array)
+        //{
+        //    if (array == null || array.Length == 0)
+        //    {
+        //        throw new ArgumentException("Empty or null array");
+        //    }
 
-            int indexMaxElement = 0;
+        //    int indexMaxElement = 0;
 
-            for (int i = 1; i < array.Length; i++)
-            {
-                if (array[i] > array[indexMaxElement])
-                {
-                    indexMaxElement = i;
-                }
-            }
+        //    for (int i = 1; i < array.Length; i++)
+        //    {
+        //        if (array[i] > array[indexMaxElement])
+        //        {
+        //            indexMaxElement = i;
+        //        }
+        //    }
 
-            return indexMaxElement;
-        }
+        //    return indexMaxElement;
+        //}
 
-        //5.Calculate the sum of array elements with odd indices.
+        //+5.Calculate the sum of array elements with odd indices.
         public static int FindSumElementsWithOddIndex(int[] array)
         {
-            if (array == null || array.Length == 0)
+            if (array == null)
             {
                 throw new ArgumentException("Empty or null array");
             }
@@ -103,10 +103,10 @@ namespace Homework_Lection_5_Library
         //6.Make an array reverse (an array in the opposite direction)
         public static void MakeReverseArray(int[] array)
         {
-            if (array == null || array.Length == 0)
-            {
-                throw new ArgumentException("Empty or null array");
-            }
+            //if (array == null || array.Length == 0)
+            //{
+            //    throw new ArgumentException("Empty or null array");
+            //}
 
             for (int i = 0; i < (array.Length / 2); i++)
             {

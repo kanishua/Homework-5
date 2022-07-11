@@ -15,7 +15,7 @@ namespace Homework_Lection_5_Library
             {
                 for (int j = 0; j < matrix.GetLength(1); j++)
                 {
-                    matrix[i, j] = random.Next(0, 10);
+                    matrix[i, j] = random.Next(-10, 10);
                 }
             }
 

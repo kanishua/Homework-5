@@ -7,18 +7,18 @@ namespace Homework_Lection_5
     {
         static void Main(string[] args)
         {
-            int[] array = ArrayHelper.GanerateSingleArray(10);
+            int[] array = ArrayHelper.GanerateSingleArray(0);
             PrintArray(array);
             Console.WriteLine();
 
-            Console.WriteLine("1.Find the minimum element of an array:");
-            Console.WriteLine(ArrayHelper.FindMinElement(array));
-            Console.WriteLine("2.Find the maximum element of an array:");
-            Console.WriteLine(ArrayHelper.FindMaxElement(array));
-            Console.WriteLine("3.Find the index of the minimum element of the array:");
-            Console.WriteLine(ArrayHelper.FindIndexMinElement(array));
-            Console.WriteLine("4.Find the index of the maximum element of the array:");
-            Console.WriteLine(ArrayHelper.FindIndexMaxElement(array));
+            //Console.WriteLine("1.Find the minimum element of an array:");
+            //Console.WriteLine(ArrayHelper.FindMinElement(array));
+            //Console.WriteLine("2.Find the maximum element of an array:");
+            //Console.WriteLine(ArrayHelper.FindMaxElement(array));
+            //Console.WriteLine("3.Find the index of the minimum element of the array:");
+            //Console.WriteLine(ArrayHelper.FindIndexMinElement(array));
+            //Console.WriteLine("4.Find the index of the maximum element of the array:");
+            //Console.WriteLine(ArrayHelper.FindIndexMaxElement(array));
             Console.WriteLine("5.Calculate the sum of array elements with odd indices:");
             Console.WriteLine(ArrayHelper.FindSumElementsWithOddIndex(array));
             Console.WriteLine("6.Make an array reverse (an array in the opposite direction):");
