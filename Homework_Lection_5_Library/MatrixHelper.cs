@@ -32,14 +32,14 @@ namespace Homework_Lection_5_Library
         //1.Find the minimum element of an array.
         public static int FindMinElement(int[,] matrix)
         {
-            int[] arrayOfIndexs = MatrixHelper.FindIndexMinElement(matrix);
+            int[] arrayOfIndexs = FindIndexMinElement(matrix);
             return matrix[arrayOfIndexs[0], arrayOfIndexs[1]];
         }
 
         //2.Find the maximum element of an array.
         public static int FindMaxElement(int[,] matrix)
         {
-            int[] arrayOfIndexs = MatrixHelper.FindIndexMaxElement(matrix);
+            int[] arrayOfIndexs = FindIndexMaxElement(matrix);
             return matrix[arrayOfIndexs[0], arrayOfIndexs[1]];
         }
 
